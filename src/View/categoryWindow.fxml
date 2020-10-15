@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CategoryWindowController">
+   <children>
+      <ChoiceBox fx:id="categoryChoiceBox" layoutX="225.0" layoutY="66.0" prefWidth="150.0" />
+      <TextArea fx:id="categoryInfoTextArea" layoutX="200.0" layoutY="111.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="349.0" layoutY="334.0" mnemonicParsing="false" onAction="#playButtonPressed" text="Spill" />
+      <Button layoutX="199.0" layoutY="334.0" mnemonicParsing="false" onAction="#backButtonPressed" text="Tilbake" />
+      <Label layoutX="265.0" layoutY="35.0" text="Velg kategori" />
+   </children>
+</AnchorPane>
